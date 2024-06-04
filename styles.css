@@ -1,0 +1,194 @@
+/* styles.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 56px; /* Adjust this value based on the height of your header */
+}
+
+.navbar-brand img {
+  display: block;
+  height: 30px;
+  width: 105px;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+.jumbotron {
+  background-image: url('res/m4m-bg.png');
+  background-size: cover;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: #ffffff;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background-color: #ccc;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 0 20px;
+}
+
+.timeline-item:nth-child(even) {
+  margin-left: 50%;
+}
+
+.timeline-badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-panel {
+  position: relative;
+  padding: 2rem;
+  background-color: #fafafa;
+  border-radius: 4px;
+}
+
+.timeline-heading {
+  font-weight: bold;
+}
+
+.timeline-body {
+  margin-top: 1rem;
+}
+
+#game-engine, #community, #roadmap {
+  background-color: #f0f0f0;
+}
+
+#ai-toolchain {
+  background-color: #777;
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+#games .btn-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* FAQ styles */
+.faq-item {
+  margin-bottom: 1rem;
+}
+
+.faq-question {
+  font-weight: bold;
+}
+
+.faq-question .btn-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.faq-answer {
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+
+.accordion-button {
+  width: 100%;
+}
+
+.accordion-button::before {
+  color: #333;
+}
+
+.accordion-button.collapsed::before {
+  color: #777;
+}
+
+.carousel-caption {
+  color: #666;
+}
+
+.community img {
+  max-width: 36px;
+  padding: 2px 0;
+}
+
+#about {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Add styles for team member cards here */
+
+.team-member {
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
